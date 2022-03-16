@@ -7,6 +7,9 @@ html{
     font-size: 62.5%;
     /*1rem siempre sera igual a 10 px*/
 }
+body{
+    width: 100%;
+}
 footer{
     background-color: #C1D7AE;
     width: 100%;
@@ -35,13 +38,6 @@ section{
     padding-left: 10px;
     padding-right: 10px;
 }
-/* .row{
-    padding-left: 3rem;
-} */
-/* .row div{
-    display: block;
-} */
-
 .presentacion{
     height: 108.2rem;
     text-align: left;
@@ -175,14 +171,13 @@ section{
 .preparacion2{
     display: block;
     position: absolute;
-    width: 70rem;
-    margin:  2rem 73.5rem;
-    padding: 1rem 0rem; ;
+    width: 41%;
+    margin:  2rem 71.5rem;
+    padding: 0;
     background-color: whitesmoke;
     
 }
 .preparacionTexto{
-    padding: 0 5rem;
     background-color: whitesmoke;
 }
 .preparacionTexto h1{
@@ -298,12 +293,12 @@ section{
 }
 .cuadro1{
     margin-top: 12rem;
-    margin-left: 17rem;
+    margin-left: 1rem;
     padding-top: 3rem;
-    padding-left: 3rem;
+    padding-left: 1.5rem;
     position: absolute;
-    width: 25rem;
-    height: 22rem;
+    width: 20rem;
+    height: 20rem;
     text-align: left;
     font-size: 2.3rem;
     background-color: whitesmoke;
@@ -311,12 +306,12 @@ section{
 }
 .cuadro2{
     margin-top: 12rem;
-    margin-left: 45rem;
+    margin-left: 25rem;
     padding-top: 3rem;
-    padding-left: 3rem;
+    padding-left: 2rem;
     position: absolute;
-    width: 25rem;
-    height: 22rem;
+    width: 20rem;
+    height: 20rem;
     text-align: left;
     font-size: 2.3rem;
     background-color: whitesmoke;
@@ -324,12 +319,12 @@ section{
 }
 .cuadro3{
     margin-top: 40rem;
-    margin-left: 17rem;
+    margin-left: 1rem;
     padding-top: 3rem;
-    padding-left: 3rem;
+    padding-left: 1.5rem;
     position: absolute;
-    width: 25rem;
-    height: 22rem;
+    width: 20rem;
+    height: 20rem;
     text-align: left;
     font-size: 2.3rem;
     background-color: whitesmoke;
@@ -337,19 +332,16 @@ section{
 }
 .cuadro4{
     margin-top: 40rem;
-    margin-left: 45rem;
+    margin-left: 25rem;
     padding-top: 3rem;
-    padding-left: 3rem;
+    padding-left: 2rem;
     position: absolute;
-    width: 25rem;
-    height: 22rem;
+    width: 20rem;
+    height: 20rem;
     text-align: left;
     font-size: 2.3rem;
     background-color: whitesmoke;
     border: 2px grey solid;
-}
-.cuadro1 .numero{
-    font-size: 1.5rem;
 }
 
 .cuadro1 button,.cuadro2 button,.cuadro3 button,.cuadro4 button{
@@ -379,19 +371,19 @@ section{
 }
 .about{
     margin-top: 1rem;
-    margin-left: 80rem;
+    margin-left: 60rem;
 }
 .company{
     margin-top: 1rem;
-    margin-left: 103rem;
+    margin-left: 80rem;
 }
 .support{
     margin-top: 1rem;
-    margin-left: 125rem;
+    margin-left: 103rem;
 }
 .piePagina h1,.company h1,.support h1,.about h1{
     padding: 1rem;
-    font-size: 4rem;
+    font-size: 3rem;
     color: #153B93;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
@@ -403,11 +395,11 @@ section{
     color: gray;
 }
 #svgCall,#svgChat,#svgVideo,#svgMessage{
-    width: 5rem;
-    height: 5rem;
+    width: 3.5rem;
+    height: 3.5rem;
     background-color: #BFE6E2;
-    border: 5px#BFE6E2 solid;
-    border-radius: 5px;  
+    border: 4px#BFE6E2 solid;
+    border-radius: 3px;  
 }
 #svgSecurity,#svgFlecha{
     width: 3rem;
@@ -479,7 +471,7 @@ section{
     text-align: left;
 }
 #avoid{
-    height: 20rem;
+    height: 7rem;
 }
 #letreros{
     font-size: 2rem;
